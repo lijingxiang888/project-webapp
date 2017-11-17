@@ -10,7 +10,7 @@ window.addEventListener('resize',freshRem);
 
 //第二步:通过ajax获取data
 $.ajax({
-    url:'http://api.iclient.ifeng.com/ClientNews?id=SYLB10,SYDT10&gv=5.4.0&os=ios&uid=8jWzrXDWQeep2Nw4AZYzmHxkbneHy4Fj',
+    url:'https://api.iclient.ifeng.com/ClientNews?id=SYLB10,SYDT10&gv=5.4.0&os=ios&uid=8jWzrXDWQeep2Nw4AZYzmHxkbneHy4Fj',
     type:'get',
     dataType:'jsonp',
     jsonp:'callback',
